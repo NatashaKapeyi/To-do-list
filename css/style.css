@@ -1,15 +1,38 @@
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+    
+    body{
+    display: flex;
+    justify-content: center;
+}
+.container{
+   
+        width:400px;
+        box-shadow: 0px 0px 15px 5px rgb(128, 87, 34);
+        padding: 25px;
+        border-radius: 25px;
+        text-align: center;
+        background: burlywood
+}
+
+
 .item-description{
     padding: 6px;
     width: 210px;
     margin-bottom: 10px;
 }
 
-.item-wrap:checked + .item-description {
+.item-complete:checked + .item-description {
  background: burlywood;
  text-decoration:  line-through;
 }
 
-#add{
+#add,#remove{
  padding: 9px 15px;
  font-weight: bold;
  color: rgb(255, 255, 255);
