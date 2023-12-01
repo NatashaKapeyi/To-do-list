@@ -1,0 +1,17 @@
+.item-description{
+    padding: 6px;
+    width: 210px;
+    margin-bottom: 10px;
+}
+
+.item-wrap:checked + .item-description {
+ background: burlywood;
+ text-decoration:  line-through;
+}
+
+#add{
+ padding: 9px 15px;
+ font-weight: bold;
+ color: rgb(255, 255, 255);
+ background: rgb(128, 87, 34);
+}
